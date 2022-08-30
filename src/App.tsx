@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./components/ Navbar";
+import Main from "./pages/Main";
 
 const App: React.FC = () => {
     return (
         <div className="">
-            <Navbar test="f" />
+            <Main />
         </div>
     );
 };
