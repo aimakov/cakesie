@@ -1,9 +1,10 @@
 import React from "react";
 import { BsChevronCompactDown } from "react-icons/bs";
 
-const Intro = () => {
+const Intro: React.FC = () => {
     return (
-        <div className="flex flex-col w-full h-[60vh] flex-grow justify-around items-center bg-orange-400">
+        <div className="flex flex-col w-full h-[60vh] flex-grow justify-around items-center bg-orange-500">
+            {/* <img src="/assets/bg_images/cake_background.jpeg" /> */}
             <div className="flex flex-col justify-center items-center gap-10">
                 <div>
                     <h2 className="w-full text-center text-[2rem] text-white font-semibold">You create a cake</h2>

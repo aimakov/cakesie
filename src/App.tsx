@@ -3,7 +3,7 @@ import Main from "./pages/Main";
 
 const App: React.FC = () => {
     return (
-        <div className="">
+        <div className="w-screen overflow-x-clip">
             <Main />
         </div>
     );

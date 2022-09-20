@@ -1,6 +1,6 @@
 import React from "react";
 
-const Staff = () => {
+const Staff: React.FC = () => {
     return <div>Staff</div>;
 };
 
